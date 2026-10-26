@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ShelfSync - Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ShelfSync</h1>
+        <p>Library Management & Book Circulation System</p>
+    </header>
+
+    <nav>
+        <button onclick="showDashboard()">Dashboard</button>
+        <button onclick="showBooks()">Books</button>
+        <button onclick="showMembers()">Members</button>
+        <button onclick="issueBook()">Issue Book</button>
+        <button onclick="returnBook()">Return Book</button>
+        <button onclick="showIssuedBooks()">Issued Books</button>
+        <button onclick="addMember()">Add Member</button>
+    </nav>
+
+    <main>
+
+        <h2>Library Dashboard</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Books</h3>
+                <p id="totalBooks">3</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Members</h3>
+                <p id="totalMembers">3</p>
+            </div>
+
+            <div class="card">
+                <h3>Books Issued</h3>
+                <p id="booksIssued">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Available Books</h3>
+                <p id="availableBooks">17</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
